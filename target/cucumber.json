@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-29T20:13:04.314Z",
+        "before": [
+          {
+            "result": {
+              "duration": 402056,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.start(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search by typing",
+        "description": "",
+        "id": "google-search;search-by-typing",
+        "after": [
+          {
+            "result": {
+              "duration": 4885,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.end(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 65611,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I navigated to the Google",
+            "match": {
+              "location": "GoogleSearchSteps.i_navigated_to_the_Google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9438,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I type search item",
+            "match": {
+              "location": "GoogleSearchSteps.i_type_search_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8270,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click on google search button",
+            "match": {
+              "location": "GoogleSearchSteps.i_click_on_google_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14319,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I see search results are displayed",
+            "match": {
+              "location": "GoogleSearchSteps.i_see_search_results_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jenkins"
+          }
+        ]
+      }
+    ],
+    "name": "Google Search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/GoogleSearch.feature",
+    "tags": []
+  }
+]
